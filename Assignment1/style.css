@@ -1,0 +1,95 @@
+body    {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer  {
+position: absolute;
+    left: 300px;
+    bottom: 0;
+    margin:
+}
+
+a  {
+    font-size: 1.5rem;
+    color: firebrick;
+}
+
+a  {
+    display: inline-block;
+    background-color: wheat;
+    border: 5px;
+    border-color: black;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+/* Classes */
+
+.startBG    {
+    background-image: url(BG/OtherPlains.png);
+    background-size: cover;
+}
+
+.storytime  {
+    background-color: azure;
+    width: 1000px;
+    margin: auto;
+}
+
+.storyimg   {
+    width: 75%;
+    position: relative;
+    z-index: 1;
+}
+
+nf  {
+    transform: scaleX(-1);
+}
+
+.lperson1    {
+    position: absolute;
+    left: 750px;
+    top: 427px;
+    z-index: 4;
+    transform: scaleX(-1);
+}
+
+.lperson2    {
+    position: absolute;
+    left: 650px;
+    top: 427px;
+    z-index: 3;
+    transform: scaleX(-1);
+}
+
+.lperson3    {
+    position: absolute;
+    left: 550px;
+    top: 427px;
+    z-index: 2;
+    transform: scaleX(-1);
+}
+
+.rperson1    {
+    position: absolute;
+    left: 950px;
+    top: 427px;
+    z-index: 4;
+}
+
+.rperson2    {
+    position: absolute;
+    left: 1050px;
+    top: 427px;
+    z-index: 3;
+}
+
+.rperson3    {
+    position: absolute;
+    left: 1150px;
+    top: 427px;
+    z-index: 2;
+}
